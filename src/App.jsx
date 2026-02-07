@@ -79,7 +79,7 @@ function App() {
       )
 
       // Trigger if cursor is close (e.g. within 150px) AND we haven't moved recently
-      if (distance < 150 && Date.now() - lastMoveTime.current > 400) {
+      if (distance < 200 && Date.now() - lastMoveTime.current > 100) {
         moveButton()
       }
     }

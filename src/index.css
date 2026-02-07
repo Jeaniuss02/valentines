@@ -139,8 +139,9 @@ button {
   background-color: #fff0f3;
   color: var(--primary-pink);
   border: 2px solid var(--primary-pink);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   /* Smooth movement */
+  cursor: not-allowed;
   /* Position is handled by inline styles in React */
 }
 
